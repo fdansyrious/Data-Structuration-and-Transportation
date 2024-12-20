@@ -1,0 +1,27 @@
+{
+  "teacher": [
+    [
+      "teacherId",
+      "TEXT",
+      "[constraint]"
+    ],
+    [
+      "teacherName",
+      "TEXT",
+      "[constraint]"
+    ],
+    [
+      "teacherEmail",
+      "TEXT",
+      "[constraint]"
+    ],
+    [
+      "teacherPhone",
+      "TEXT",
+      "[constraint]"
+    ]
+  ],
+  "student": [],
+  "subject": [],
+  "mark": []
+}

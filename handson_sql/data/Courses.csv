@@ -1,0 +1,11 @@
+CourseID,CourseName,CourseCredits,TeacherID
+1,Mathematics,8,t1
+2,English,3,t2
+3,Science,8,t3
+4,History,2,t4
+5,Geography,2,t5
+6,Computer Science,10,t6
+7,Swahili,3,t7
+8,Physics,8,t8
+9,Chemistry,6,t9
+10,Biology,4,t10
