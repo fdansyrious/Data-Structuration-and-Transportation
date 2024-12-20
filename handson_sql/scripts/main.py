@@ -16,8 +16,8 @@ create_db(db_location=DATABASE_FOLDER, db_name=db_name)
 with open(TABLE_PROPERTIES_PATH, "r") as file:
     table_properties: dict = json.load(file)
 
-create_tables(table_properties=table_properties, db=DATABASE_FOLDER+db_name)
+create_tables(table_properties=table_properties, db_location=DATABASE_FOLDER, db_name=db_name)
 
-list_tables(db=DATABASE_FOLDER+db_name)
-            
+tables = list_tables(db_location=DATABASE_FOLDER, db_name=db_name)
+logging.info(f"Created tables are {tables}")            
         

@@ -7,7 +7,7 @@ logging.basicConfig(
     format="{asctime} - {levelname} - {message}",
     style="{",
     datefmt="%Y-%m-%d %H:%M",
-    level=logging.INFO
+    level=logging.DEBUG
 )
 
 def create_db(db_location: str, db_name: str) -> None:
@@ -20,14 +20,15 @@ def create_db(db_location: str, db_name: str) -> None:
     """
     db_location = db_location if db_location[-1] == "/" else db_location + "/"
     db_name = db_name if db_name[-3:] == ".db" else db_name+".db"
+    path_to_db = db_location + db_name
+    logging.info({f"Path to DB : {path_to_db}"})
     try:
-        connection:sqlite3.connect  = sqlite3.connect(db_location+db_name)
+        connection:sqlite3.connect  = sqlite3.connect(path_to_db)
         logging.info({f"Database {db_name} successfully created in {db_location}"})
-        logging.info({f"Total number of changes : {connection.total_changes}"})
         connection.close()
     except Exception as e:
         logging.debug({f"Failed to create database : {e}"})
-
+        
 def table_creation_query(table_properties: dict, table_name: str) -> Optional[str]:
     """
     Builds the query to run to create table_name.
@@ -47,30 +48,43 @@ def table_creation_query(table_properties: dict, table_name: str) -> Optional[st
             )"""
         return query
     
-def create_tables(table_properties: dict, db: str)->None:
+def create_tables(table_properties: dict, db_location: str, db_name: str)->None:
     """
     runs the query against the database to create the tables in table_properties.
     
     Parameters:
     table_properties : dict of all the tables and their attributes
-    db : emplacement and name of the database
+    db_location : location to store the database
+    db_name : name of the dabase
     """
-    conn:sqlite3.connect  = sqlite3.connect(db)
+    db_location = db_location if db_location[-1] == "/" else db_location + "/"
+    db_name = db_name if db_name[-3:] == ".db" else db_name+".db"
+    path_to_db = db_location + db_name
+    connection = sqlite3.connect(path_to_db)
+    cursor = connection.cursor()
+    logging.info(f"Tables to create {list(table_properties.keys())}")
     for table_name in table_properties.keys():
+        query = table_creation_query(table_properties=table_properties, table_name=table_name)
+        logging.info(f"query to excecute: {query}")  
         try:
-            query = table_creation_query(table_properties=table_properties, table_name=table_name)
-            conn.execute(query)
+            cursor.executescript(query)
+            logging.info({f"Tables {table_name} successfully created in {db_name}"})
         except Exception as e:
             logging.debug({f"Table Creation Failed : {e}"})
+    connection.close()
             
-def list_tables(db: str) -> list[tuple[str, ...]]:
+def list_tables(db_location: str, db_name: str) -> list[tuple[str, ...]]:
     """
     Lists the existing table in db
     
     Parameters:
-    db : emplacement and name of the database
+    db_location : location to store the database
+    db_name : name of the dabase
     """
-    connection:sqlite3.connect  = sqlite3.connect(db)
+    db_location = db_location if db_location[-1] == "/" else db_location + "/"
+    db_name = db_name if db_name[-3:] == ".db" else db_name+".db"
+    path_to_db = db_location + db_name
+    connection = sqlite3.connect(path_to_db)
     cursor = connection.cursor()
     tables = cursor.execute("SELECT name FROM sqlite_master WHERE type='table'").fetchall()
     connection.close()
