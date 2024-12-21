@@ -2,7 +2,7 @@ from typing import Optional
 import sqlite3
 import logging
 import pandas as pd
-from data_wrangler import wrangler_data_for_insertion
+from .data_wrangler import wrangler_data_for_insertion
 
 logging.basicConfig(
     format="{asctime} - {levelname} - {message}",

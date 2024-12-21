@@ -1,7 +1,7 @@
 from typing import Optional
 import logging
 import pandas as pd
-from env import TABLE_DATA_MAPPING_PATH
+from scripts.env import TABLE_DATA_MAPPING_PATH
 
 
 def read_datas(table_file_mapping:dict = TABLE_DATA_MAPPING_PATH) -> dict[str, pd.DataFrame]:
@@ -18,7 +18,7 @@ def read_datas(table_file_mapping:dict = TABLE_DATA_MAPPING_PATH) -> dict[str, p
 
 def wrangler_data_for_insertion(df):
     columns = df.columns.tolist()
-    columns = f"({", ".join(columns)})"
+    columns = f"({', '.join(columns)})"
     
     values = "("+df.astype(str).apply(lambda cols:", ".join([f'"{value}"' for value in cols]), axis=1)+")"
     values = values.values.tolist()
