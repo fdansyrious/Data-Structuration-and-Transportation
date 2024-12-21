@@ -1,3 +1,4 @@
+import os
 from typing import Optional
 import sqlite3
 import logging
@@ -21,6 +22,9 @@ def create_db(db_location: str, db_name: str) -> None:
     db_name : name of the dabase
     """
     db_location = db_location if db_location[-1] == "/" else db_location + "/"
+    if not os.path.exists(db_location):
+        os.makedirs(db_location)
+    
     db_name = db_name if db_name[-3:] == ".db" else db_name+".db"
     path_to_db = db_location + db_name
     logging.info({f"Path to DB : {path_to_db}"})
