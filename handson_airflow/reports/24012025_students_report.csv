@@ -1,0 +1,201 @@
+StudentID,StudentName,CourseName,avg_score
+1,John Makori,Biology,93.0
+1,John Makori,Chemistry,91.0
+1,John Makori,Computer Science,80.0
+1,John Makori,English,78.0
+1,John Makori,Geography,95.0
+1,John Makori,History,88.0
+1,John Makori,Mathematics,85.0
+1,John Makori,Physics,89.0
+1,John Makori,Science,92.0
+1,John Makori,Swahili,75.0
+10,Elsa Makamba,Biology,92.0
+10,Elsa Makamba,Chemistry,88.0
+10,Elsa Makamba,Computer Science,83.0
+10,Elsa Makamba,English,76.0
+10,Elsa Makamba,Geography,89.0
+10,Elsa Makamba,History,84.0
+10,Elsa Makamba,Mathematics,82.0
+10,Elsa Makamba,Physics,95.0
+10,Elsa Makamba,Science,91.0
+10,Elsa Makamba,Swahili,79.0
+11,Omar Kassim,Biology,89.0
+11,Omar Kassim,Chemistry,86.0
+11,Omar Kassim,Computer Science,81.0
+11,Omar Kassim,English,93.0
+11,Omar Kassim,Geography,96.0
+11,Omar Kassim,History,90.0
+11,Omar Kassim,Mathematics,88.0
+11,Omar Kassim,Physics,94.0
+11,Omar Kassim,Science,85.0
+11,Omar Kassim,Swahili,77.0
+12,Grace Wambui,Biology,95.0
+12,Grace Wambui,Chemistry,89.0
+12,Grace Wambui,Computer Science,88.0
+12,Grace Wambui,English,85.0
+12,Grace Wambui,Geography,91.0
+12,Grace Wambui,History,82.0
+12,Grace Wambui,Mathematics,78.0
+12,Grace Wambui,Physics,87.0
+12,Grace Wambui,Science,90.0
+12,Grace Wambui,Swahili,73.0
+13,Yohannes Tesfaye,Biology,94.0
+13,Yohannes Tesfaye,Chemistry,90.0
+13,Yohannes Tesfaye,Computer Science,82.0
+13,Yohannes Tesfaye,English,79.0
+13,Yohannes Tesfaye,Geography,91.0
+13,Yohannes Tesfaye,History,88.0
+13,Yohannes Tesfaye,Mathematics,85.0
+13,Yohannes Tesfaye,Physics,86.0
+13,Yohannes Tesfaye,Science,93.0
+13,Yohannes Tesfaye,Swahili,75.0
+14,Halima Abdi,Biology,96.0
+14,Halima Abdi,Chemistry,87.0
+14,Halima Abdi,Computer Science,85.0
+14,Halima Abdi,English,82.0
+14,Halima Abdi,Geography,94.0
+14,Halima Abdi,History,79.0
+14,Halima Abdi,Mathematics,76.0
+14,Halima Abdi,Physics,90.0
+14,Halima Abdi,Science,88.0
+14,Halima Abdi,Swahili,71.0
+15,Robert Oduor,Biology,97.0
+15,Robert Oduor,Chemistry,89.0
+15,Robert Oduor,Computer Science,88.0
+15,Robert Oduor,English,85.0
+15,Robert Oduor,Geography,92.0
+15,Robert Oduor,History,78.0
+15,Robert Oduor,Mathematics,90.0
+15,Robert Oduor,Physics,91.0
+15,Robert Oduor,Science,94.0
+15,Robert Oduor,Swahili,75.0
+16,Nadia Gebre,Biology,95.0
+16,Nadia Gebre,Chemistry,89.0
+16,Nadia Gebre,Computer Science,88.0
+16,Nadia Gebre,English,85.0
+16,Nadia Gebre,Geography,91.0
+16,Nadia Gebre,History,82.0
+16,Nadia Gebre,Mathematics,78.0
+16,Nadia Gebre,Physics,87.0
+16,Nadia Gebre,Science,90.0
+16,Nadia Gebre,Swahili,73.0
+17,Suleiman Ali,Biology,94.0
+17,Suleiman Ali,Chemistry,90.0
+17,Suleiman Ali,Computer Science,82.0
+17,Suleiman Ali,English,79.0
+17,Suleiman Ali,Geography,91.0
+17,Suleiman Ali,History,88.0
+17,Suleiman Ali,Mathematics,85.0
+17,Suleiman Ali,Physics,86.0
+17,Suleiman Ali,Science,93.0
+17,Suleiman Ali,Swahili,75.0
+18,Jane Muthoni,Biology,96.0
+18,Jane Muthoni,Chemistry,87.0
+18,Jane Muthoni,Computer Science,85.0
+18,Jane Muthoni,English,82.0
+18,Jane Muthoni,Geography,94.0
+18,Jane Muthoni,History,79.0
+18,Jane Muthoni,Mathematics,76.0
+18,Jane Muthoni,Physics,90.0
+18,Jane Muthoni,Science,88.0
+18,Jane Muthoni,Swahili,71.0
+19,Tewodros Berhanu,Biology,97.0
+19,Tewodros Berhanu,Chemistry,89.0
+19,Tewodros Berhanu,Computer Science,88.0
+19,Tewodros Berhanu,English,85.0
+19,Tewodros Berhanu,Geography,92.0
+19,Tewodros Berhanu,History,78.0
+19,Tewodros Berhanu,Mathematics,90.0
+19,Tewodros Berhanu,Physics,91.0
+19,Tewodros Berhanu,Science,94.0
+19,Tewodros Berhanu,Swahili,75.0
+2,Amina Njoroge,Biology,96.0
+2,Amina Njoroge,Chemistry,87.0
+2,Amina Njoroge,Computer Science,85.0
+2,Amina Njoroge,English,82.0
+2,Amina Njoroge,Geography,94.0
+2,Amina Njoroge,History,79.0
+2,Amina Njoroge,Mathematics,76.0
+2,Amina Njoroge,Physics,90.0
+2,Amina Njoroge,Science,88.0
+2,Amina Njoroge,Swahili,71.0
+20,Fatima Ali,Biology,92.0
+20,Fatima Ali,Chemistry,88.0
+20,Fatima Ali,Computer Science,83.0
+20,Fatima Ali,English,76.0
+20,Fatima Ali,Geography,89.0
+20,Fatima Ali,History,84.0
+20,Fatima Ali,Mathematics,82.0
+20,Fatima Ali,Physics,95.0
+20,Fatima Ali,Science,91.0
+20,Fatima Ali,Swahili,79.0
+3,Daniel Girma,Biology,97.0
+3,Daniel Girma,Chemistry,89.0
+3,Daniel Girma,Computer Science,88.0
+3,Daniel Girma,English,85.0
+3,Daniel Girma,Geography,92.0
+3,Daniel Girma,History,78.0
+3,Daniel Girma,Mathematics,90.0
+3,Daniel Girma,Physics,91.0
+3,Daniel Girma,Science,94.0
+3,Daniel Girma,Swahili,75.0
+4,Sara Kibet,Biology,92.0
+4,Sara Kibet,Chemistry,88.0
+4,Sara Kibet,Computer Science,83.0
+4,Sara Kibet,English,76.0
+4,Sara Kibet,Geography,89.0
+4,Sara Kibet,History,84.0
+4,Sara Kibet,Mathematics,82.0
+4,Sara Kibet,Physics,95.0
+4,Sara Kibet,Science,91.0
+4,Sara Kibet,Swahili,79.0
+5,Moses Kimani,Biology,89.0
+5,Moses Kimani,Chemistry,86.0
+5,Moses Kimani,Computer Science,81.0
+5,Moses Kimani,English,93.0
+5,Moses Kimani,Geography,96.0
+5,Moses Kimani,History,90.0
+5,Moses Kimani,Mathematics,88.0
+5,Moses Kimani,Physics,94.0
+5,Moses Kimani,Science,85.0
+5,Moses Kimani,Swahili,77.0
+6,Zainab Said,Biology,95.0
+6,Zainab Said,Chemistry,89.0
+6,Zainab Said,Computer Science,88.0
+6,Zainab Said,English,85.0
+6,Zainab Said,Geography,91.0
+6,Zainab Said,History,82.0
+6,Zainab Said,Mathematics,78.0
+6,Zainab Said,Physics,87.0
+6,Zainab Said,Science,90.0
+6,Zainab Said,Swahili,73.0
+7,Patrick Kamau,Biology,94.0
+7,Patrick Kamau,Chemistry,90.0
+7,Patrick Kamau,Computer Science,82.0
+7,Patrick Kamau,English,79.0
+7,Patrick Kamau,Geography,91.0
+7,Patrick Kamau,History,88.0
+7,Patrick Kamau,Mathematics,85.0
+7,Patrick Kamau,Physics,86.0
+7,Patrick Kamau,Science,93.0
+7,Patrick Kamau,Swahili,75.0
+8,Aisha Mohammed,Biology,96.0
+8,Aisha Mohammed,Chemistry,87.0
+8,Aisha Mohammed,Computer Science,85.0
+8,Aisha Mohammed,English,82.0
+8,Aisha Mohammed,Geography,94.0
+8,Aisha Mohammed,History,79.0
+8,Aisha Mohammed,Mathematics,76.0
+8,Aisha Mohammed,Physics,90.0
+8,Aisha Mohammed,Science,88.0
+8,Aisha Mohammed,Swahili,71.0
+9,Abdi Nur,Biology,97.0
+9,Abdi Nur,Chemistry,89.0
+9,Abdi Nur,Computer Science,88.0
+9,Abdi Nur,English,85.0
+9,Abdi Nur,Geography,92.0
+9,Abdi Nur,History,78.0
+9,Abdi Nur,Mathematics,90.0
+9,Abdi Nur,Physics,91.0
+9,Abdi Nur,Science,94.0
+9,Abdi Nur,Swahili,75.0

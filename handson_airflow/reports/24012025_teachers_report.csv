@@ -1,0 +1,11 @@
+TeacherID,TeacherName,CourseName,min_score,max_score,avg_score
+t1,David Mwangi,Mathematics,76,90,83.16666666666667
+t10,Aisha Said,Biology,89,97,94.16666666666667
+t2,Grace Kimani,English,76,93,82.83333333333333
+t3,Mohammed Abdi,Science,85,94,90.41666666666667
+t4,Alice Wambua,History,78,90,82.875
+t5,Peter Njoroge,Geography,89,96,92.29166666666667
+t6,Amina Omar,Computer Science,80,88,84.58333333333333
+t7,Joseph Kassim,Swahili,71,79,74.83333333333333
+t8,Wanjiru Kamau,Physics,86,95,90.625
+t9,Moses Tewolde,Chemistry,86,91,88.25
